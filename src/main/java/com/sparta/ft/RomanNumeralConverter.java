@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 public class RomanNumeralConverter {
 
-    public String convert(int input) {
+    public static String convert(int input) {
 
         // Could not resolve the issue so did some research online to find guidance to satisfy task parameters
         // Can provide source upon request
