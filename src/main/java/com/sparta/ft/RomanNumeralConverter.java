@@ -6,6 +6,11 @@ public class RomanNumeralConverter {
 
     public static String convert(int input) {
 
+        // There is no Roman Numeral for 0 so adding if statement to handle this case
+        if (input == 0) {
+            return "NULLA";
+        }
+
         // Could not resolve the issue so did some research online to find guidance to satisfy task parameters
         // Can provide source upon request
 

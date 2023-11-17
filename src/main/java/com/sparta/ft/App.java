@@ -8,8 +8,8 @@ public class App
 {
     public static void main( String[] args ) {
 
-        RomanNumeralConverter romanNumeralConverter = new RomanNumeralConverter();
-        System.out.println(romanNumeralConverter.convert(2019));
+//        RomanNumeralConverter romanNumeralConverter = new RomanNumeralConverter();
+        System.out.println(RomanNumeralConverter.convert(0));
 
     }
 }
